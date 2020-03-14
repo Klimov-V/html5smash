@@ -143,3 +143,24 @@ footer h4 small {
   text-align: right;
   margin-top: 25px;
 }
+
+[data-border] {
+  outline: 1px solid yellowgreen;
+}
+[data-border="red"] {
+  outline: 1px solid red;
+}
+
+.col-fl {
+  width: 35%;
+  float: left;
+}
+.col-fl--wide {
+  width: 60%;
+}
+.row-fl:before,
+.row-fl:after {
+  content: "";
+  display: block;
+  clear: both;
+}
